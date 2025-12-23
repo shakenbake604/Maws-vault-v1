@@ -1,0 +1,40 @@
+views:
+  - type: cards
+    name: Project
+    filters:
+      and:
+        - file.hasProperty("Project")
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 6
+    cardSize: 170
+    image: note.banner
+    timeProperty: file.ctime
+    title: Projects
+    cutoff: minute
+    viewMode: gantt
+    taskContent: file.file
+    taskStatus: note.status
+    taskPriority: note.priority
+    taskProject: note.title
+    taskTags: note.tags
+    taskDueDate: note.dueDate
+    taskStartDate: note.date
+    taskCompletedDate: note.completionDate
+    taskContext: note.context
+    useMarkdownRenderer: false
+  - type: timeline-view
+    name: Project timeline
+    filters:
+      and:
+        - file.hasProperty("Project")
+    startField: file.ctime
+    endField: file.mtime
+    contentField: note.title
+  - type: mermaid-timeline
+    name: Project timeline2
+    filters:
+      and:
+        - file.hasProperty("Project")
+    timeProperty: file.ctime

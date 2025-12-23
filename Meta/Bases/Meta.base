@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Misc
+    filters:
+      and:
+        - file.inFolder("Quick notes")
+        - file.ext != "png"
+        - file.ext != "jpg"
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC

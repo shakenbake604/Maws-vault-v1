@@ -1,0 +1,21 @@
+{
+  "pluginVersion": "0.2.0",
+  "layout": "3x1",
+  "data": [
+    {
+      "id": "419981ce-32e3-43bf-beac-aff732a6a301",
+      "position": 1,
+      "type": "link",
+      "content": "![[school.base]]"
+    },
+    {
+      "id": "41916144-ceb5-4b30-8467-b67cd085bbaa",
+      "position": 0,
+      "type": "file",
+      "content": "school.base"
+    }
+  ],
+  "showBorders": true,
+  "showOptionBar": false,
+  "borderSpacing": "20px"
+}

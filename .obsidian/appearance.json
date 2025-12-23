@@ -1,0 +1,23 @@
+{
+  "enabledCssSnippets": [
+    "wide-buttons",
+    "widen",
+    "scroll-gallery",
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "MCL Wide Views",
+    "dashboard-cards",
+    "dashboard_grid",
+    "dashboard-layout",
+    "timeline",
+    "callout-chatgpt",
+    "Portal Pill buttons",
+    "custom-homepage",
+    "butt",
+    "raincss"
+  ],
+  "cssTheme": "Velocity",
+  "accentColor": "#8a5cf5",
+  "textFontFamily": "",
+  "interfaceFontFamily": ""
+}

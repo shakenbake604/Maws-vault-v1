@@ -1,0 +1,16 @@
+views:
+  - type: cards
+    name: Active
+    filters:
+      or:
+        - file.name == "DS 410"
+        - file.name == "Math 230"
+        - file.name == "Cmpsc 461"
+        - file.name == "Stat 380"
+        - file.name == "Stat 184"
+        - file.name == "Stat 415"
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 100
+    image: note.banner

@@ -1,0 +1,43 @@
+formulas:
+  Untitled: ""
+views:
+  - type: dynamic-views-grid
+    name: Recents
+    filters:
+      and:
+        - file.ext != "base"
+        - file.name != "Bases"
+        - file.folder != "copilot-custom-prompts"
+        - file.folder != "Meta"
+        - file.mtime >= now() - "7 d"
+        - file.ext == "md"
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+    propertyDisplay3: file.ctime
+    propertyDisplay4: file.mtime
+    propertyLayout34SideBySide: true
+    propertyDisplay5: file.tags
+  - type: timeline-view
+    name: Ideas
+    filters:
+      and:
+        - file.folder == "Ideas"
+    order:
+      - file.name
+      - Status
+    sort:
+      - property: Status
+        direction: ASC
+    startField: file.ctime
+    endField: file.mtime
+  - type: dash-table-view
+    name: View
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 15

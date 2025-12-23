@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	},
+	"nodes":[
+		{"id":"16d903d54a78db8d","type":"file","file":"Projects/Project 2/Project 2 1.4.2.md","x":-460,"y":40,"width":400,"height":400},
+		{"id":"7244f7ea87f04ded","type":"file","file":"Projects/Project 2/Project 2.md","x":-345,"y":-510,"width":664,"height":400},
+		{"id":"98cc67d910dade0e","type":"file","file":"Projects/Project 2/1.4.4 Update reddit post.md","x":22,"y":19,"width":400,"height":400}
+	],
+	"edges":[
+		{
+			"id":"5a91019b5e6ae79f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"7244f7ea87f04ded",
+			"fromSide":"bottom",
+			"toNode":"16d903d54a78db8d",
+			"toSide":"top"
+		}
+	]
+}

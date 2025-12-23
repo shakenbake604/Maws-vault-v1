@@ -1,0 +1,26 @@
+{
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "Meta/Home."
+  ],
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "showInlineTitle": false,
+  "spellcheckDictionary": [
+    "Wale-Bogunjoko",
+    "Replatforming",
+    "Rehosting",
+    "Rehosting",
+    "Replatforming"
+  ],
+  "focusNewTab": false,
+  "defaultViewMode": "source",
+  "propertiesInDocument": "visible",
+  "promptDelete": false,
+  "attachmentFolderPath": "Meta/Pics"
+}

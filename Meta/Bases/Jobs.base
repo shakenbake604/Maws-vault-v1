@@ -1,0 +1,23 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Job applications/Companies")
+    order:
+      - file.name
+      - "Applied "
+      - file.ctime
+      - source
+      - Salary
+      - Position
+    sort:
+      - property: file.ctime
+        direction: DESC
+      - property: Salary
+        direction: DESC
+    columnSize:
+      file.name: 482
+      "note.Applied ": 80
+      note.source: 164
+      note.Salary: 115

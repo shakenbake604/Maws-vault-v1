@@ -1,0 +1,27 @@
+properties:
+  note.Subject studied:
+    displayName: Subjects studied
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("School/Daily")
+    order:
+      - file.name
+      - Studied
+      - Study_mins
+      - Subject studied
+      - Productivity
+    sort:
+      - property: Productivity
+        direction: DESC
+      - property: file.name
+        direction: DESC
+      - property: Subject studied
+        direction: DESC
+    columnSize:
+      file.name: 245
+      note.Subject studied: 195
+  - type: table
+    name: View

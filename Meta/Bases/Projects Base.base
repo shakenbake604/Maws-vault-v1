@@ -1,0 +1,33 @@
+filters:
+  and:
+    - file.hasProperty("Project")
+formulas:
+  pp_progress: if(note["progmax"], if(note["progress"], note["Progress""], 0) + "/" + note["progmax""], " ")
+properties:
+  formula.pp_progress:
+    displayName: Progress
+views:
+  - type: cards
+    name: Projects
+    filters:
+      and:
+        - file.hasProperty("Project")
+        - file.inFolder("Projects")
+    order:
+      - file.name
+      - formula.pp_progress
+    sort:
+      - property: file.fullname
+        direction: ASC
+    limit: 10
+    image: note.cover
+    cardSize: 160
+    imageAspectRatio: 1
+    imageFormat: thumbnail
+    imageProperty: cover,banner
+    imagePosition: right
+    propertyDisplay1: file.ctime
+    propertyDisplay2: file.mtime
+    propertyLayout12SideBySide: true
+    propertyDisplay4: note.Phase
+    propertyGroup2Position: top

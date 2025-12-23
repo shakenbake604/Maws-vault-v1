@@ -1,0 +1,6 @@
+views:
+  - type: feed
+    name: Table
+    maxCardWidth: 360
+    showProperties: true
+    multipleColumns: true

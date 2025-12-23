@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("Ideas")
+        - '!file.hasProperty("foldernote")'
+    order:
+      - file.name
+      - Status
+      - Phase
+    sort:
+      - property: Phase
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+    limit: 15
+    columnSize:
+      file.name: 490
+      note.Status: 129

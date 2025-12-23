@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: "360"
+    filters:
+      and:
+        - file.inFolder("School/Class 2")
+    order:
+      - file.name
+      - file.tags

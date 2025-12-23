@@ -1,0 +1,80 @@
+views:
+  - type: cards
+    name: Classes
+    filters:
+      and:
+        - file.inFolder("School")
+        - file.name != "School"
+    order:
+      - file.name
+      - color
+    sort: []
+    limit: 10
+    cardSize: 130
+    propertyDisplay1: file.tags
+    showTitle: true
+    imageFormat: thumbnail
+    imagePosition: right
+    propertyLayout12SideBySide: false
+    imageAspectRatio: 1
+    propertyLabels: hide
+    propertyGroup1Position: top
+    image: note.color
+  - type: cards
+    name: Class 1
+    filters:
+      and:
+        - file.inFolder("School/Class 1")
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+    cardSize: 180
+    showPropertyNames: true
+    rootLabel: Ds 410
+    image: note.color
+  - type: cards
+    name: Class 2
+    filters:
+      and:
+        - file.inFolder("School/Class 2")
+    sort:
+      - property: file.ctime
+        direction: DESC
+    limit: 15
+    cardSize: 180
+    image: note.cover
+  - type: cards
+    name: Class 3
+    filters:
+      and:
+        - file.inFolder("School/Class 3")
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 180
+    image: note.color
+  - type: cards
+    name: Class 4
+    filters:
+      and:
+        - file.inFolder("School/Class 4")
+    cardSize: 180
+    image: note.color
+  - type: cards
+    name: Class 5
+    filters:
+      and:
+        - file.inFolder("School/Class 5")
+    order:
+      - file.name
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+      - property: file.ctime
+        direction: DESC
+    cardSize: 180
+    columnSize:
+      file.name: 414
+    image: note.color

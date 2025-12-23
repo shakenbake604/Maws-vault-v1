@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Andrew Brereton//obsidian-ical-plugin v2.0.1//EN
+X-WR-CALNAME:Obsidian Calendar
+NAME:Obsidian Calendar
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7a36cdb8-ba46-410a-abb8-711926755c69
+DTSTAMP:20251021T000000
+DTSTART:20251021
+SUMMARY:🔲 Study for math quiz 🔺 <!-- task-id: mgzqwg9l -->
+LOCATION:ALTREP="obsidian://open?vault=Vault&file=Time%20for%20skoo/Math%20230/Schedule.md":obsidian://open?vault=Vault&file=Time%20for%20skoo/Math%20230/Schedule.md
+END:VEVENT
+END:VCALENDAR

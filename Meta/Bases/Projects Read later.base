@@ -1,0 +1,36 @@
+views:
+  - type: list
+    name: Read later
+    filters:
+      and:
+        - file.inFolder("Articles")
+        - file.name != "Articles"
+        - file.ext != "base"
+    groupBy:
+      property: Read
+      direction: ASC
+    order:
+      - file.name
+      - Rating
+      - Read
+    sort:
+      - property: file.mtime
+        direction: DESC
+    cardSize: 330
+    fallbackToEmbeds: if-empty
+    showDate: true
+    tagsProperty: file.tags
+    titleProperty: file.name
+    dateProperty: file.ctime
+    imageAspectRatio: 1
+    draftStatusProperty: note.Read
+    showDraftStatus: false
+    draftStatusReverse: true
+    propertyDisplay1: note.Read
+    propertyLayout12SideBySide: false
+    subtitleProperty: read
+    showProperties: true
+    imageProperty: cover
+    imageFormat: cover
+    showTextPreview: true
+    swimLane: note.Read

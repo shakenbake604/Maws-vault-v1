@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: Notion recents
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 10
+    image: note.banner
+    cardSize: 120
