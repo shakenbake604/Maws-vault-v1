@@ -1,16 +1,16 @@
 # Maws Vault v1 - Obsidian Vault Template
 
-https://i.imgur.com/Y51m2mo.png
+![Screenshot 1](https://i.imgur.com/Y51m2mo.png)
 
-https://i.imgur.com/GKfNput.png
+![Screenshot 2](https://i.imgur.com/GKfNput.png)
 
-https://i.imgur.com/13ZASRR.png
+![Screenshot 3](https://i.imgur.com/13ZASRR.png)
 
-https://i.imgur.com/QM8kS7x.png
+![Screenshot 4](https://i.imgur.com/QM8kS7x.png)
 
-https://i.imgur.com/oYKFpk8.png
+![Screenshot 5](https://i.imgur.com/oYKFpk8.png)
 
-https://i.imgur.com/q0cslzO.png
+![Screenshot 6](https://i.imgur.com/q0cslzO.png)
 
 
 A comprehensive Obsidian vault template designed for me but can be optimized for your workflow too.It features a beautiful interface with custom themes, powerful organization systems, and productivity-enhancing plugins.
