@@ -153,6 +153,10 @@ This vault template is provided as-is for personal and educational use.
 
 This vault features a bunch of amazing community plugins. See [Meta/Documentation.md](Meta/Documentation.md) for the full list of plugins and their creators.
 
+## Support
+
+If you find this vault useful and want to support its development, you can [buy me a coffee on Ko-fi](https://ko-fi.com/kingmaws)! ☕
+
 ---
 
 **Maws**
